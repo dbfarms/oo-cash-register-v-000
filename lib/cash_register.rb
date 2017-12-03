@@ -13,7 +13,7 @@ class CashRegister
   end
 
   def apply_discount(item, price)
-    price = (price * discount% )
+    price = price - (price.to_f  * discount )
   end
 
 end
