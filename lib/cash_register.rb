@@ -8,5 +8,8 @@ class CashRegister
     @discount = discount
   end
 
+  def add_tem
+
+  end
 
 end
